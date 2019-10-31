@@ -1,4 +1,4 @@
-langcode: en
+lngcode: en
 status: true
 dependencies:
   config:
@@ -19,6 +19,11 @@ default_value:
     attributes: {  }
     uri: 'http://twitter.com/isuextension'
     title: Twitter
+    options: {  }
+  -
+    attributes: {  }
+    uri: 'http://twitter.com'
+    title: Twitter Home
     options: {  }
 default_value_callback: ''
 settings:
