@@ -20,6 +20,11 @@ default_value:
     uri: 'http://www.facebook.com/iowastateuniversityextension'
     title: Facebook
     options: {  }
+  - 
+    attributes: {  }
+    uri: 'http://www.facebook.com'
+    title: Facebook Home
+    options: {  }
 default_value_callback: ''
 settings:
   link_type: 17
