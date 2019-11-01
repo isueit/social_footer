@@ -9,6 +9,7 @@ dependencies:
     - field.field.block_content.social_media_footer.field_pinterest
     - field.field.block_content.social_media_footer.field_twitter
     - field.field.block_content.social_media_footer.field_youtube
+    - field.field.block_content.social_media_footer.field_blog
   module:
     - link
 id: block_content.social_media_footer.default
@@ -58,6 +59,14 @@ content:
     region: content
   field_youtube:
     weight: 31
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_blog:
+    weight: 32
     settings:
       placeholder_url: ''
       placeholder_title: ''
