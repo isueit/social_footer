@@ -1,0 +1,5 @@
+{
+  "name": "isueit/social_footer",
+  "type": "drupal-custom-module",
+  "description": "Module to create a social media footer custom block type and place it in the 4th footer region"
+}
